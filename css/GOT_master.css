@@ -80,6 +80,17 @@ main {
 
 .arryn { background-position:-253px -54px; }
 .arryn:hover { background-position:-253px 0px; }
+
+.frey { background-position:-303.5px -54px; }
+.frey:hover { background-position:-303.5px 0px; }
+
+
+.tyrell { background-position:-354px -54px; }
+.tyrell:hover { background-position:-354px 0px; }
+
+
+.targaryen { background-position:-404.5px -54px; }
+.targaryen:hover { background-position:-404.5px 0px; }
 /* ----- end image sprite ----- */
 
 /* ----- classes for transitions ----- */
@@ -114,17 +125,25 @@ main {
 
 .lightbox .close {
 	float: right;
-	padding-right: 10px;
-	padding-top: 10px;
+	margin-right: 30px;
 	font-size: 25px;
 	color: white;
 	text-decoration: none;
 }
 
+.house-info {
+	color: white;
+	font-size: 1.3em;
+	line-height: 1;
+	width: 70%;
+	padding-top: 12px;
+	margin: 0 auto;
+}
+
 
 
 video {
-	width: 80%;
-	margin-top: 10%;
+	width: 65%;
+	margin-top: 50px;
 	border: thin solid #949393;
 }
